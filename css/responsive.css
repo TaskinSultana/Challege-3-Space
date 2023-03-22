@@ -1,0 +1,218 @@
+@media (min-width:950px) and (max-width:1560px){
+    .intro{
+        width: 74%;
+        margin: 60px auto;
+    }
+    .grid{
+        width: 74%;
+    }
+    #service{
+        width: 74%;
+    }
+    #about{
+        width: 74%;
+    }
+    #skill{
+        width: 74%;
+    
+    }
+    #blog{
+        width: 74%;
+        margin: 100px auto;
+        text-align: center;
+    }
+    #contact{
+        width: 74%;
+    }
+    .footer-inner{
+        width: 74%;
+
+    }
+}
+
+@media (min-width:550px) and (max-width:1050px){
+    .intro{
+        width: 84%;
+        margin: 60px auto;
+    }
+    .grid{
+        width: 84%;
+        margin: 60px auto;
+        -webkit-column-count: 2;
+        -ms-grid-column-count:2;
+        column-count: 2;
+    }
+    .grid .item{
+        margin: 0 0 0.5rem;
+    }
+    #service{
+        width: 84%;
+        margin: 50px auto;
+    }
+    .service-column{
+        -webkit-column-count: 2;
+        -ms-grid-column-count:2 ;
+        column-count: 2;
+    }
+    #about{
+        width: 84%;
+    }
+    .about-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        text-align: left;
+        margin: 0px;
+    }
+    .about-img .img-text{
+        position: absolute;
+        right: 35%;
+        bottom: 10%;   
+    }
+    #skill{
+        width: 84%;
+    }
+    .skill-flex .inner-circle{
+        text-align: center;
+        width: 50%;
+    }
+    #blog{
+        width: 88%;
+        margin: 100px auto;
+        text-align: center;
+    }
+    #contact{
+        width: 84%;
+    }
+    .footer-inner{
+        width: 84%;
+    }
+   
+}
+@media (min-width:0px) and (max-width:950px){
+    .blog-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-flex .blog-item{
+        width: 100%;
+        margin: 15px 0px;
+       
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-item{
+        width: 100%;
+        margin: 10px 0px;
+       
+    }
+}
+
+@media (max-width:550px){
+    .intro{
+        width: 94%;
+        text-align: center;
+        margin: 60px auto;
+    }
+    .intro a{
+        margin: 20px auto;
+    }
+    .grid{
+        width: 94%;
+        margin: 60px auto;
+        -webkit-column-count: 1;
+        -ms-grid-column-count:1;
+        column-count: 1;
+    }
+    .grid .item{
+        margin: 0 0 0.5rem;
+    }
+    #service{
+        width: 94%;
+    }
+    .service-column{
+        -webkit-column-count: 1;
+        -ms-grid-column-count:1;
+        column-count:1;
+    }
+    .service-column .service-item{
+        text-align: center;
+    }
+    .para::after{
+        left: calc(38%);
+        bottom: 0;
+    }
+    #about{
+        width: 94%;
+    }
+    .about-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        text-align: left;
+        margin: 0px;
+    }
+    .about-text .text-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-flex .box-margin {
+        margin-right:0px ;
+    }
+    .about-img .img-text{
+        position: absolute;
+        right: 40%;
+        bottom: 10%;  
+       
+    }
+    #skill{
+        width: 94%;
+    }
+    .skill-flex .inner-circle{
+        text-align: center;
+        width: 50%;
+    }
+    #blog{
+        width: 94%;
+        
+    }
+    #contact{
+        width: 94%;
+    }
+    form .inner{
+        display: flex;
+        flex-direction: column;
+    }
+    form #fname,#lname{
+        width:100%;
+    }
+    form .btn{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .btn input{
+        width: 250px;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    .footer-inner{
+        width: 94%;
+    }
+ 
+}
+
+@media (max-width:300px){
+    .skill-flex .inner-circle{
+        text-align: center;
+        width: 100%;
+    }
+}
