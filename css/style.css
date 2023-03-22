@@ -47,7 +47,7 @@ body{
     display: none;
     transition: 100ms  ease-in-out;
     background-color: #ffffff;
-    
+    z-index:1;
 }
 .menu-extra .cross {
     padding: 15px 20px;
